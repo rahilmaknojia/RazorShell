@@ -38,3 +38,58 @@ Format-RazorShell -Template $template -Model $model
 
 ```
 
+will output this:
+
+```html
+<h1>Hi jbockle!</h1>
+
+<ul><li>item1</li><li>item2</li><li>item3</li></ul>
+
+<table>
+    <tr>
+        <td>Name</td>
+        <td>Priority</td>
+    </tr>
+    <tr>
+        <td>aciseagent</td>
+        <td></td>   
+    </tr>
+    <tr>
+        <td>audiodg</td>
+        <td></td>   
+    </tr>
+    <tr>
+        <td>chrome</td>
+        <td>Idle</td>   
+    </tr>
+    <tr>
+        <td>chrome</td>
+        <td>Idle</td>   
+    </tr>
+    <tr>
+        <td>chrome</td>
+        <td>Normal</td>   
+    </tr>
+    <tr>
+        <td>chrome</td>
+        <td>Idle</td>   
+    </tr>
+    <tr>
+        <td>chrome</td>
+        <td>Idle</td>   
+    </tr>
+    <tr>
+        <td>chrome</td>
+        <td>Normal</td>   
+    </tr>
+    <tr>
+        <td>chrome</td>
+        <td>Idle</td>   
+    </tr>
+    <tr>
+        <td>chrome</td>
+        <td>Normal</td>   
+    </tr>
+</table>
+```
+
