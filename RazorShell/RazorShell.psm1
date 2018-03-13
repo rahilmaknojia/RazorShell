@@ -2,7 +2,7 @@
 
 $script:namespace = 'RazorShell.Templates'
 
-function Format-RazorTemplate {
+function Format-RazorShell {
     [CmdLetBinding()]
     param(
         [Parameter(Mandatory = $true)]
@@ -118,4 +118,4 @@ function Invoke-RenderRazorShell {
     $templateInstance.Render($Model)
 }
 
-Export-ModuleMember -Function Format-RazorTemplate
+Export-ModuleMember -Function Format-RazorShell
